@@ -13,7 +13,7 @@ Display the measured distance in the Serial Monitor and repeat the process conti
 # Procedure:
 Open Tinkercad Circuits and create a new circuit. Place an Arduino Uno, HC-SR04 ultrasonic sensor, LED, and suitable resistor in the workspace. Connect the VCC pin of the ultrasonic sensor to the Arduino 5V pin. Connect the GND pin of the ultrasonic sensor to the Arduino GND. Connect the TRIG pin of the ultrasonic sensor to a digital pin of the Arduino. Connect the ECHO pin of the ultrasonic sensor to another digital pin of the Arduino. Connect the LED to a digital output pin through a suitable resistor. Write the Arduino program to generate a trigger pulse and calculate the distance using the echo time. Set a suitable distance threshold in the program. If the measured distance is below the threshold, turn ON the LED. If the measured distance is greater than the threshold, turn OFF the LED. Start the simulation in Tinkercad and observe the LED operation while changing the ultrasonic sensor distance. Verify that the digital output responds correctly to the measured distance. Algorithm Start Initialize the ultrasonic sensor pins and LED pin. Set the TRIG pin to LOW. Generate a short HIGH pulse on the TRIG pin. Read the duration of the signal received at the ECHO pin. Calculate the distance from the echo duration. Compare the measured distance with the predefined threshold. If the distance is less than the threshold, turn ON the LED. Otherwise, turn OFF the LED. Display or monitor the measured distance. Repeat the process continuously. Stop
 
-Code:
+# Code:
 
 ```const int trigPin = 9;
 const int echoPin = 10;
