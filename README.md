@@ -42,3 +42,15 @@ void loop() {
   delay(500);
 }
 ```
+
+# Output
+
+<img width="1806" height="955" alt="Screenshot 2026-11-24 135857" src="https://github.com/user-attachments/assets/9df29c55-3f72-4011-8faf-c3c523552c26" />
+<img width="1908" height="865" alt="Screenshot 2026-11-24 135921" src="https://github.com/user-attachments/assets/12fdb1ca-9b33-4311-8066-419500c6d841" />
+<img width="1917" height="832" alt="Screenshot 2026-11-24 135935" src="https://github.com/user-attachments/assets/f75a5e11-7b53-4cc8-8f30-eed2c088b58a" />
+
+# Result
+
+The given interface an HC-SR04 ultrasonic sensor with an Arduino Uno and control a digital output (LED) based on the measured distance of an object runned successfully.
+
+
